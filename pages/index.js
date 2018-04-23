@@ -1,10 +1,9 @@
-import { Menu } from '../components';
+import { Menu, Layout } from '../components';
 
 const Index = () => (
-    <div>
-        <Menu />
-        <h1>Hello World</h1>
-    </div>
+    <Layout pageTitle='Home'>
+        <p>Hello World</p>
+    </Layout>
 )
 
 export default Index;
