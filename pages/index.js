@@ -1,5 +1,10 @@
+import { Menu } from '../components';
+
 const Index = () => (
-    <div><p>Hello World</p></div>
+    <div>
+        <Menu />
+        <h1>Hello World</h1>
+    </div>
 )
 
 export default Index;
